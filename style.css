@@ -1,0 +1,29 @@
+body{
+    margin: 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* -------------------
+    nav style
+---------------------*/
+.nav-h2{
+    padding-left: 80px;
+    margin-top: 40px;
+}
+.nav-menu{
+    padding-right: 80px;
+    margin-top: 40px;
+    font-weight: 600;
+    
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu a,i{
+    padding-left: 10px;
+}
