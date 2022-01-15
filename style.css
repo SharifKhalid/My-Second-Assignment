@@ -16,6 +16,7 @@ nav{
     padding-left: 100px;
     margin-top: 40px;
     font-weight: 700; 
+    
 }
 .nav-menu{
     padding-right: 100px;
@@ -27,7 +28,11 @@ nav{
     color: black;
 }
 .nav-menu a,i{
-    padding-left: 10px;
+    padding-left: 30px;
+}
+.nav-menu-icon{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 /* -------------------
     nav style end
@@ -52,6 +57,9 @@ main{
     width: 500px;
     padding-left: 100px;
 }
+.influencer p{
+    font-weight: 600;
+}
 .div-drone{
     display: flex;
 }
@@ -60,21 +68,24 @@ main{
     padding-right: 100px;
 }
 .h1-font-size{
-    font-size: 52px;
-    font-weight: 700; 
+    font-size: 40px;
+    font-weight: 900; 
 }
 .button{
     background-color: rgb(32, 108, 230);
-    width: 190px;
-    height: 40px;
-    padding-left: 50px;
-    padding-top: 15px;
+    width: 160px;
+    height: 35px;
+    padding-left: 45px;
+    padding-top: 10px;
     border-radius: 50px;
+    margin-top: 25px;
+    font-weight: bold;
 }
 .button a, i{
     text-decoration: none;
     color: white;
 }
+
 /* -------------------
     section-drone style start
 ---------------------*/
@@ -88,7 +99,7 @@ main{
     justify-content: center;
     align-items: center;
    
-    margin-top: 80px;
+    margin-top: 100px;
     box-shadow: 0 0 1px  ;
 }
 .logos img{
@@ -102,7 +113,7 @@ main{
 
 #column-title{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 /* -------------------
@@ -115,7 +126,7 @@ main{
     grid-template-columns: repeat(3,1fr);
     margin: 0 auto;
     align-items: center;
-    
+    position: relative;
     
 }
 .box{
@@ -131,10 +142,76 @@ main{
 .inner-box h1,h2,p{
     margin: 0;
 }
+.inner-box h2{
+    color: rgb(99, 93, 93);
+}
 .inner-box{
     padding: 10px 10px;
     border-radius: 2px;
 }
+.fa-star{
+    color: rgb(224, 140, 5);
+    padding-left: 0;
+}
+.main-bottom a{
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+    
+}
+.main-bottom{
+    position: relative;
+    width: 120px;
+    left: 1150px;
+}
 /* -------------------
     section-column style end
 ---------------------*/
+
+.footer{
+    background-color: rgb(119, 153, 40);  
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+.footer h2{
+    text-align: center;
+    padding-top: 60px;
+}
+.footer p{
+    text-align: center;
+}
+.fa-copyright{
+    padding-left: 0;
+}
+.p-logo{
+    text-align: center;
+}
+.f-icon{
+    padding-left: 10px;
+    color: rgb(71, 71, 69);
+}
+
+
+/* ----------------------
+Media query
+----------------------- */
+@media only screen and (max-width: 688px) {
+    .section-drone{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .section-column{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    
+}
